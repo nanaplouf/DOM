@@ -8,6 +8,16 @@
     <script src="assets/js/script.js"></script>
 </head>
 <body>
-    <h1>Ajouter une Citation</h1>
+    <div class="container">
+        <div class="form-container">
+            <h1>Ajouter une Citation</h1>
+            <form id="quote-form">
+                <textarea id="quote-text" placeholder="Entrez la citation ici..." required></textarea>
+                <input type="text" id="author-name" placeholder="Nom de l'auteur" required>
+                <button type="submit">Ajouter Citation</button>
+            </form>
+        </div>
+        <div id="quote-list"></div>
+    </div>
 </body>
 </html>
